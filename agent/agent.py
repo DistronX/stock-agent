@@ -24,9 +24,9 @@ class Agent:
 		self.epsilon_min = 0.01
 		self.epsilon_decay = 0.995
 		self.batch_size = 32
-		if os.path.exists('stock-agent/models/target_model'):
-			self.policy_net = torch.load('stock-agent/models/policy_model', map_location=device)
-			self.target_net = torch.load('stock-agent/models/target_model', map_location=device)
+		if os.path.exists('models/target_model'):
+			self.policy_net = torch.load('models/policy_model', map_location=device)
+			self.target_net = torch.load('models/target_model', map_location=device)
 		else:
 			self.policy_net = DQN(state_size, self.action_size)
 			self.target_net = DQN(state_size, self.action_size)

@@ -1,14 +1,14 @@
 import torch
 import numpy as np
 import matplotlib
-# matplotlib.use('TkAgg')
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
 
 from agent.agent import Agent
 from functions import *
 
-stock_name = '^BAJFINANCE_2020'
+stock_name = '^HSI_2018'
 window_size = 10
 
 agent = Agent(window_size, True)
