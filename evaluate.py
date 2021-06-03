@@ -8,7 +8,7 @@ import numpy as np
 from agent.agent import Agent
 from functions import *
 
-stock_name = '^HSI_2018'
+stock_name = '^BAJFINANCE_2020'
 window_size = 10
 
 agent = Agent(window_size, True)
