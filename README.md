@@ -1,7 +1,4 @@
 # Q-Trader
-
-** Use in your own risk **
-
 Pytorch implmentation from q-trader(https://github.com/edwardhdlu/q-trader)
 
 ## Results
@@ -24,7 +21,3 @@ Then when training finishes (minimum 200 episodes for results):
 ```
 jupyter notebook -> visualize.ipynb
 ```
-
-## References
-
-[Deep Q-Learning with Keras and Gym](https://keon.io/deep-q-learning/) - Q-learning overview and Agent skeleton code
