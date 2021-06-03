@@ -51,5 +51,5 @@ for e in range(episode_count + 1):
 
 	if e % 10 == 0:
 		agent.target_net.load_state_dict(agent.policy_net.state_dict())
-		torch.save(agent.policy_net, "models/policy_model")
-		torch.save(agent.target_net, "models/target_model")
+		torch.save(agent.policy_net, "stock-agent/models/policy_model")
+		torch.save(agent.target_net, "stock-agent/models/target_model")
